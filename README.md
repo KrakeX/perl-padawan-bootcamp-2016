@@ -1,4 +1,4 @@
-# Java BootCamp base folders layout
+# Perl Padawan Camp 2016
 
 Please, use this repository as a base for you training phase. The idea is to
 fork this project so everyone use the same folder structure for the
@@ -8,12 +8,11 @@ It's extremelly important to keep the key points easy to be verified by
 the reviewers, so **don't mix the key points with the rest of the
 exercises**
 
-
 # Material
 
-#JAVA Boot Camp
+#PERL Padawan Camp
 
-###Are you ready for it?
+###Are you ready?
   
 ####Index
 
