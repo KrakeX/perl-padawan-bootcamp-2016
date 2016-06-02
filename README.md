@@ -52,13 +52,13 @@ exercises**
 
 ###Objective
 
-This course teaches the basics of Java development applications.
+This course teaches a view of the basics of modern Perl development with a pinch of legacy application migration.
 
 → [index](#index)
 
 ###Who Should Attend
 
-The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on OOP is desired, though.
+The training will start at a low level and does not require in depth knowledge of the platform in question. Desirable participant profile: trainees and outside Globant candidates. A basic knowledge on OOP is desired. Javascript, Node.js Express, Python, PHP and Java JAX-WS profiles have shown lesser side effects.
 
 → [index](#index)
 
