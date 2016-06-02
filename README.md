@@ -72,16 +72,15 @@ Three weeks for guided learning and one week for app development.
 
 ###Technical Assistance
 
-You can contact other bootcamp participants or any available tutor if you need technical assistance. We will create one chat for boot camp members only, and another one for boot camp members and tutors when boot camp starts.
+You can contact other Perl Padawans or any available tutor if you need technical assistance. Two chat rooms will be created. One chat room for force-sensitive Perl Padawans to interact and a second one for Perl Padawans and Perl Jedi Masters alike where doubts and queries will be answered.
 
 ###Performance Measurement
 
-1. Code review after each practice.
+1. Peer code review after each practice.
 
 2. Checkpoint completion after Learning stage with your assigned tutor
 
 → [index](#index)
-
 
 ###Handling Advanced Developers
 
