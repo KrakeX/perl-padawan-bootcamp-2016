@@ -157,27 +157,28 @@ The minimum features to be completed are:
   - Unit tests. 2 points. [Read Test::More](http://perldoc.perl.org/Test/More.html)
   - User registration and removal. 2 points.
   - Add products to catalog. 2 points.
+  - Products must persist. 2 points. [Read DBD::mysql](http://search.cpan.org/~capttofu/DBD-mysql-4.033/lib/DBD/mysql.pm) 
   - Find products by category and name. 2 points.
-  - Export Excel spreadsheet. 2 points.
+  - Export Excel spreadsheet. 2 points. [Read Excel::Writer::XLSX](http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX-0.92/lib/Excel/Writer/XLSX.pm)
 
 Challange points are:
 
-  - Import Excel spreadsheet with all products. 20 points.
+  - Import Excel spreadsheet with all products. 20 points. [Read Spreadsheet::XLSX](http://search.cpan.org/~mikeb/Spreadsheet-XLSX-0.15/lib/Spreadsheet/XLSX.pm)
   - Add products to cart. 10 points.
   - Delete product from cart. 10 points.
   - Get cart contents. 10 points.
-  - Consume prices from WS in "wsPrices". 10 points.
-  - Authenticate against WS in "wsAuthentication". 10 points.
-  - Cached prices. 10 points.
+  - Consume prices from WS in "wsPrices". 10 points. [Read SOAP::Lite](http://guide.soaplite.com/) [Read More SOAP::Lite](http://search.cpan.org/~phred/SOAP-Lite-1.19/lib/SOAP/Lite.pm)
+  - Authenticate against WS in "wsAuthentication". 10 points. [Read Rest::Client](http://search.cpan.org/~kkane/REST-Client/lib/REST/Client.pm) [Read JSON](http://search.cpan.org/~makamaka/JSON-2.90/lib/JSON.pm)
+  - Migrate "wsAuthentication" from SQLite to MySQL. [Read DBI](http://search.cpan.org/~timb/DBI-1.636/DBI.pm) [Read DBD::SQLite](http://search.cpan.org/~ishigaki/DBD-SQLite/lib/DBD/SQLite.pm) [Read DBD::mysql](http://search.cpan.org/~capttofu/DBD-mysql-4.033/lib/DBD/mysql.pm) 
+  - Cached prices. 10 points. [Read Memoize](http://perldoc.perl.org/Memoize.html)
   - Cached users. 10 points.
-  - Cache with Memcached. 10 points. [Read Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
-  - Email a warning 
+  - Cache with Memcached. 10 points. [Read Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/) or [Read Memoize::Memcached](http://search.cpan.org/~tcohen/Memoize-Memcached-0.04/lib/Memoize/Memcached.pm)
 
 Nice to have:
 
-  - Multiple instances with a balancing proxy. 30 points.
-  - Multiple instances of memcached. 30 points. [Reread Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
-  - Non plain text authentication.
+  - Multiple instances with a balancing proxy. 30 points. [Read HAProxy](https://serversforhackers.com/load-balancing-with-haproxy)
+  - Multiple instances of memcached. 30 points. [Reread Cache::Memcached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
+  - Non plain text authentication. 30 points. Read wsAuthentication docs. Also [Read Digest::BCrypt](http://search.cpan.org/~capoeirab/Digest-Bcrypt/lib/Digest/Bcrypt.pm)
 
 All requests except registration must require authentication from the documentation.
 
@@ -193,6 +194,7 @@ Jedi Masters can change integration tests at any time, even already passing ones
 Wrong integration tests can only be changed by Jedi Masters.
 
 Each unique implemented unit test is worth 1 point.
+
 Missing documentation coverage of a method voids all unit test points.
 Missing documentation coverage of API endpoints voids all related feature points.
 Not nailing a minimum viable product voids all points. [Read MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
