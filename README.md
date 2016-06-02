@@ -78,65 +78,124 @@ You can contact other Perl Padawans or any available tutor if you need technical
 
 1. Peer code review after each practice.
 
-2. Checkpoint completion after Learning stage with your assigned tutor
+2. Checkpoint completion after Learning stage with your assigned tutor.
+
+3. Each practice level of success is measured as a sum of the amount of commits that make-up each solution, plus the amount of peer comments, plus the amount of collaborative merges a solution has received. Often, you should commit. Generously, you should comment. Collaborate with you fellow Padawans, you should.
+
+4. Each check point level of success is measured by writing a Jedi Master curated Top 10 list of learned items known as a "Padawan Cheat Sheet".
+
+5. Final application success level is mesured in "client value points" as documented in [Proposed Test Application](#Proposed Test Application)
 
 → [index](#index)
 
 ###Handling Advanced Developers
 
-Developers that move faster than average can go ahead and complete as much exercises as wanted. 
+Developers that move faster than average can go ahead and complete as much exercises as wanted.
+
+Helping others has shown to produce better practice and checkpoint level of success.
 
 → [index](#index)
 
 ###Materials
 
-1. Install [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+1. (Windows Only) Install VM Software [VirtualBox](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-2. The IDE to use is [Eclipse for Java Developers](http://www.eclipse.org/downloads/). [JEE version Recommended](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars1).
+2. (Windows Only) Download Ubuntu 14.04 64-bit VM Image. [OSBoxes](http://www.osboxes.org/ubuntu/)
 
-3. Skype Account + headset (audio calls)
+3. (Windows Only) Download 7-zip Software [7-zip](http://www.7-zip.org/download.html)
 
-4. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account. Also you can read further about Git in [Try Git](https://try.github.io/levels/1/challenges/1) or [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+4. (Windows Only) Install Ubuntu 14.04 [OSBoxes Guide](http://www.osboxes.org/guide/).
 
-5. Fork this repo https://github.com/juanpablopizarro/java-bootcamp-2016 to use as a base to host the project code. Read [this](https://help.github.com/articles/fork-a-repo/) for instructions.
+5. Make a mental note on switching to Linux.
+
+6. Get hold of a Google account + headset (for audio calls).
+
+7. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account. Also you can read further about Git in [Try Git](https://try.github.io/levels/1/challenges/1) or [Learn Git Branching](http://pcottle.github.io/learnGitBranching/)
+
+8. Fork [this repo](https://github.com/gbarco/perl-padawan-camp-2016) to use as a base to host the project code. Read [this](https://help.github.com/articles/fork-a-repo/) for instructions.
+
+9. Create a branch with your name, commit and send a pull request to the main repo adding a directory under the directory named padawans with your first name and last name in this format NameLastname. Read about [Pull Requests](https://help.github.com/articles/creating-a-pull-request/)
+
+10. Run the script called setup_environment.sh from command line under Linux.
 
 → [index](#index)
-
- 
 
 ###General Guidelines
 
-The boot camp is organized in the following way:
+The Perl Padawan Camp is organized in the following way:
 
-1. The first three weeks will be used for intensive self learning. Each topic will have reading and practices parts. Tutors will be available to answer technical questions on a given chat room. 
+1. The first three weeks will be used for intensive self learning. Each topic will consist of reading and practice parts. Tutors will be available to answer technical questions.
 
-2. The next week will be used to develop an application following a life process.
+2. The forth week will be used to develop an application following a real life process. The exercise consists of fixing reported bugs, detecting and fixing unreported bugs and developing new functionality collaborativelly.
 
-3. One boot camp chat will be created for feedback and technical assistance:
+3. Two chat rooms will exist. The Padawan Chat Room for participants interaction and the Jedi Masters Chat Room for feedback and technical assistance.
 
-    Bootcamp JAVA 2016 - ALL
-Every person participating in the bootcamp is present here (students and tutors). Here is the place to ask for technical assistance!
+Perl Padawan Chat Room 2016
+Tutors are not present in this chat room. Here is the place to offer help, interact, discuss and collaborate with your team.
 
-4. [Team play](http://www.dummies.com/how-to/content/ten-qualities-of-an-effective-team-player.html) is encouraged but the work will be evaluated per person.
+Perl Jedi Masters Chat Room 2016
+Every person participating in the boot camp is present here (participants and tutors). Here is the place to ask for technical assistance!
 
-5. The instructions will be vague as they generally are in real life projects. You must look for support and guidance from your tutor and teammates.
+4. [Team play](http://www.dummies.com/how-to/content/ten-qualities-of-an-effective-team-player.html) is encouraged and taken into account when evaluating each participant.
+
+5. Expect vague instructions. Life like this. The force is within you to look for support and guidance from your teammates, tutor, google and stackoverflow.
 
 6. All code and documentation must be in English.
 
-7. Code must adhere to this [eclipse code formatter](https://github.com/juanpablopizarro/java-bootcamp-2016/blob/master/formatter.xml). See importing instructions in this [link](http://www.avajava.com/tutorials/lessons/how-do-i-share-my-code-formatting-settings-with-another-user.html?page=2).
+7. Code must adhere PerlTidy defaults. [Perltidy Tutorial] (http://perltidy.sourceforge.net/tutorial.html)
 
 → [index](#index)
 
-###Proposed Test Applications
+###Proposed Test Application
 
-The test application will consist in a REST API for a functional shopping cart. The minimum features to be completed are:
+The test application will consist in a REST API for a functional shopping cart.
 
-  - User registration and login.
-  - List products.
-  - Find products by category and name.
-  - Save cart before buy.
-  - Buy products.
+The minimum features to be completed are:
 
+  - POD Documented API. 2 points. [Read perlpod](http://perldoc.perl.org/perlpod.html)
+  - POD Documented methods. 2 points. [More perlpod](https://juerd.nl/site.plp/perlpodtut)
+  - Unit tests. 2 points. [Read Test::More](http://perldoc.perl.org/Test/More.html)
+  - User registration and removal. 2 points.
+  - Add products to catalog. 2 points.
+  - Find products by category and name. 2 points.
+  - Export Excel spreadsheet. 2 points.
+
+Challange points are:
+
+  - Import Excel spreadsheet with all products. 20 points.
+  - Add products to cart. 10 points.
+  - Delete product from cart. 10 points.
+  - Get cart contents. 10 points.
+  - Consume prices from WS in "wsPrices". 10 points.
+  - Authenticate against WS in "wsAuthentication". 10 points.
+  - Cached prices. 10 points.
+  - Cached users. 10 points.
+  - Cache with Memcached. 10 points. [Read Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
+  - Email a warning 
+
+Nice to have:
+
+  - Multiple instances with a balancing proxy. 30 points.
+  - Multiple instances of memcached. 30 points. [Reread Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
+  - Non plain text authentication.
+
+All requests except registration must require authentication from the documentation.
+
+Features will be considered "done" when integration tests in the "integration" directory pass.
+Documentation and unit tests will be considered "done" if a Jedi Master judges it to have 100% coverage.
+Jedi Masters will write integration tests during week four in parallel with development.
+
+Value for each feature may change at any time. This document holds valid values at any given time.
+Requested features may be dropped at any time and will be considered 0 points worth.
+
+Each passing Jedi Master integration test is worth 10 points.
+Jedi Masters can change integration tests at any time, even already passing ones.
+Wrong integration tests can only be changed by Jedi Masters.
+
+Each unique implemented unit test is worth 1 point.
+Missing documentation coverage of a method voids all unit test points.
+Missing documentation coverage of API endpoints voids all related feature points.
+Not nailing a minimum viable product voids all points. [Read MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
 ###Learning Days###
 
