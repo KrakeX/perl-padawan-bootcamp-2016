@@ -114,9 +114,9 @@ Helping others has shown to produce better practice and checkpoint level of succ
 
 8. Fork [this repo](https://github.com/gbarco/perl-padawan-camp-2016) to use as a base to host the project code. Read [this](https://help.github.com/articles/fork-a-repo/) for instructions.
 
-9. Create a branch with your name, commit and send a pull request to the main repo adding a directory under the directory named padawans with your first name and last name in this format NameLastname. Read about [Pull Requests](https://help.github.com/articles/creating-a-pull-request/)
+9. Create a branch with your name, commit and send a pull request to the main repo adding a directory under the padawans_training_grounds directory with your first name and last name in this format NameLastname in case of collisions device an algorithm to fix the problem freely or read [Collisions](https://en.wikipedia.org/wiki/Collision_%28computer_science%29) for some background and ideas. Read about [Pull Requests](https://help.github.com/articles/creating-a-pull-request/)
 
-10. Run the script called setup_environment.sh from command line under Linux.
+10. Run the script called setup_environment.sh from command line under Linux to get most of the required software and modules installed.
 
 → [index](#index)
 
@@ -150,7 +150,7 @@ Every person participating in the boot camp is present here (participants and tu
 
 The test application will consist in a REST API for a functional shopping cart.
 
-The minimum features to be completed are:
+Key Points, minimum features to be completed are:
 
   - POD Documented API. 2 points. [Read perlpod](http://perldoc.perl.org/perlpod.html)
   - POD Documented methods. 2 points. [More perlpod](https://juerd.nl/site.plp/perlpodtut)
@@ -199,21 +199,52 @@ Missing documentation coverage of a method voids all unit test points.
 Missing documentation coverage of API endpoints voids all related feature points.
 Not nailing a minimum viable product voids all points. [Read MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
+###Reading Days###
+
+Reading days are organized in sprints of 7 days for each group of knowledge keypoints.
+
+The structure behind each reading week is Read, Practice, Commit (not related to [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) but a good read anyways...).
+
+1. ####Read:####
+A list of suggested topics with a suggested 
+
+2. ####Practice:####
+Padawans are encuraged to practice what they have read on a free 
+
+3. ####Commit:####
+Padawans will collaborate on the editing and committing of a single small [POD](https://juerd.nl/site.plp/perlpodtut), [More POD](http://perldoc.perl.org/perlpod.html).
+
+The document is formatted with the sections NAME, SYNOPSIS (when aplicable, seek wisdom in CPAN modules like [Dancer](http://search.cpan.org/~bigpresh/Dancer-1.3202/lib/Dancer.pm)) and LEARNED KEYPOINTS where Padawans outline what they consider the most important points.
+
+The POD document should include inline code to test itself for syntax errors. So that executing it with the Perl interpreter will run at least a syntax check on itself. An example exists in the padawans_summaries directory.
+
+Jedi Masters like paragraphs that have been edited by many Padawans over single Padawan paragraphs. Jedi Masters also like to see you write as you read, not by the end of the sprint. Commit often, you should.
+
+Documents are due on Wednesdays.
+
+Each week a pull request with a new file in the padawans_summaries directory as a single pull request when the group agrees the document represents the most important topics.
+
+####Week 1####
+
+####Week 2####
+
+####Week 3####
+
 ###Learning Days###
 
-Each day you will grab the fundamentals of the key building blocks for usual Java applications.
+Each day you will grab the fundamentals of the key building blocks of Perl applications with a focus on WebServices on SAO and microservices architectures running within containers.
 
 On each learning day you will have to:
 
 1. ####Read:####
-We will provide you with documentation related with current sprint content so you can have a background reference, guide and examples to complete the following practice.
+We will provide you with documentation about the focal point of each iteration for background reference. Each iteration also has an associated guide and examples.
 
 2. ####Practice:####
 You will implement the previously gathered knowledge in simple coding activities.
-Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention; if you feel you don’t have enough time to complete all tasks, start with these ones when possible.
+Every iteration's practice section is divided into "Key Points" (comparable to a definition of the [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product); thus the tasks you should pay the most attention and start as early as possible, "Challange" (tasks that expect to lead you beyond your confort zone and into the hairy matters of camel herding, you can start by looking that up!), "Nice to have" (extra tasks that lead you into the road of Jedi wisdom).
 
 3. ####Commit:####
-You will commit all your code on a daily basis, when you finish your practice.
+You will commit all your code on a daily basis, when you finish your practice and receive peer code reviews and optional Perl Jedi Master guidance.
 
 ### Introduction
 
