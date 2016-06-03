@@ -182,7 +182,7 @@ Nice to have:
 
 All requests except registration must require authentication from the documentation.
 
-Features will be considered "done" when integration tests in the "integration" directory pass.
+Features will be considered "done" when integration tests in the "integration" directory contained in "padawan_training_grounds" pass. Read [Definition of Done](https://www.scrumalliance.org/community/articles/2008/september/definition-of-done-a-reference) for the concept behind this.
 Documentation and unit tests will be considered "done" if a Jedi Master judges it to have 100% coverage.
 Jedi Masters will write integration tests during week four in parallel with development.
 
