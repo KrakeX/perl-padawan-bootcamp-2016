@@ -226,21 +226,24 @@ Each week a pull request with a new file in the padawans_summaries directory as 
 
 ####Week 1####
 
+1. 
+
 ####Week 2####
 
 ####Week 3####
 
 ###Learning Days###
 
-Each day you will grab the fundamentals of the key building blocks of Perl applications with a focus on WebServices on SAO and microservices architectures running within containers.
+Each day you will grab the fundamentals of the key building blocks of Perl applications with a focus on Web Applications and Web Services based on SAO and microservices architectures running within containers in clustered environment developed under TDD paradigms with Agile groups. Read [Dancer](https://metacpan.org/pod/Dancer2::Manual), [Web Services](https://en.wikipedia.org/wiki/Web_service), [SAO](https://en.wikipedia.org/wiki/Service-oriented_architecture), [Microservices](https://en.wikipedia.org/wiki/Microservices), [Docker](https://www.docker.com/what-docker), [TDD](http://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf) and [Agile Principles](http://www.agilemanifesto.org/principles.html). 
 
 On each learning day you will have to:
 
 1. ####Read:####
-We will provide you with documentation about the focal point of each iteration for background reference. Each iteration also has an associated guide and examples.
+Jedi Masters have selected documentation about the focal point of each iteration for background reference. Each iteration also has an associated guide and examples.
 
 2. ####Practice:####
 You will implement the previously gathered knowledge in simple coding activities.
+
 Every iteration's practice section is divided into "Key Points" (comparable to a definition of the [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product); thus the tasks you should pay the most attention and start as early as possible, "Challange" (tasks that expect to lead you beyond your confort zone and into the hairy matters of camel herding, you can start by looking that up!), "Nice to have" (extra tasks that lead you into the road of Jedi wisdom).
 
 3. ####Commit:####
