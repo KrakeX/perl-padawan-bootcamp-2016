@@ -225,7 +225,7 @@ Documents are due on Wednesdays.
 Each week a pull request with a new file in the padawans_summaries directory as a single pull request when the group agrees the document represents the most important topics.
 
 ####Week 1####
-Basic development frameworks and 
+Basic development frameworks and Perl Syntax
 
 1. POD. Plain Old Documentation. Standard Perl documentation format suppointing inline documentation, coverage test and automatic documentation generation in PDF and HTML amongs others.
 	- [Writing POD](http://perlhacks.com/articles/rtfm/writing-plain-old-documentation/)
