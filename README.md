@@ -229,39 +229,89 @@ Basic development frameworks and Perl Syntax
 
 1. POD. Plain Old Documentation. Standard Perl documentation format suppointing inline documentation, coverage test and automatic documentation generation in PDF and HTML amongs others.
 	- [Writing POD](http://perlhacks.com/articles/rtfm/writing-plain-old-documentation/)
+	- Practice: Write a minimalistic pod document. With a title and a paragraph about pod. Name practice1.pod in your personal directory.
 	- [POD in 5 minutes](https://juerd.nl/site.plp/perlpodtut)
+	- Practice: Write a pod document with a bulleted list of all pod syntax elements you can remember. Name practice2.pod in your personal directory.
 	- [POD embedded](http://perldoc.perl.org/perlsyn.html#PODs%3a-Embedded-Documentation)
+	- Practice: Search for a hello world Perl example document with Embedded POD. Name practice3.pl in your personal directory.
 	- [the Plain Old Documentation format](http://perldoc.perl.org/perlpod.html)
-	- Write a summary, you must. Think "What is POD and what are its main features?". Contact peers.
-3. Perl Basic Syntax. Mostly from Beggining Perl, [free in full here](http://learn.perl.org/books/beginning-perl/)
+	- Commit: Write a summary, you must. Think "What is POD and what are its main features?". Contact peers. Name summary1.pod in padawan_summaries directory.
+2. Perl Basic Syntax. Mostly from Beggining Perl, [free in full here](http://learn.perl.org/books/beginning-perl/).
 	- [Beggining Perl, Chapter 1: First Steps In Perl](http://blob.perl.org/books/beginning-perl/3145_Chap01.pdf)
 	- [Beggining Perl, Chapter 2: Working with Simple Values](http://blob.perl.org/books/beginning-perl/3145_Chap02.pdf)
 	- [Beggining Perl, Chapter 3: Lists and Hashes](http://blob.perl.org/books/beginning-perl/3145_Chap03.pdf)
+	- Practice: Write a simple program that instances one variable of each type you know and print its value. Document with pod. Name practice4.pl.
 	- [Beggining Perl, Chapter 4: Loops and Decisions](http://blob.perl.org/books/beginning-perl/3145_Chap04.pdf)
+	- Practice: Write a simple program that instances one variable of each type you know and print all even values. Print at least 50 values. Reduce code to a minimum. Name practice5.pl.
 	- [Beggining Perl, Chapter 7: References](http://blob.perl.org/books/beginning-perl/3145_Chap07.pdf)
 	- [Beggining Perl, Chapter 8: Subroutines](http://blob.perl.org/books/beginning-perl/3145_Chap08.pdf)
+	- Practice: 
 	- [Beggining Perl, Chapter 10: Modules](http://blob.perl.org/books/beginning-perl/3145_Chap10.pdf)
+	- Practice:
 	- [Beggining Perl, Chapter 11: Object-Oriented Perl](http://blob.perl.org/books/beginning-perl/3145_Chap11.pdf)
+	- Practice: Write an OOP module that represents a person that has a name, age (numeric) a list of friends (persons) an unlimited list of favorites, favorite color, favorite car model, favorite icecream, should remember any favorite it is told without changing implementation. All files into practice6 directory under your personal directory.
 	- [Perl Syntax](http://perldoc.perl.org/perlsyn.html)
-	- Summarized syntax cannot be. Write a SYNOPSIS, you should.
-2. TDD. Test Driven Development. Software development methodology that simplifies programming to the repetition of a short Red/Green/Refector loop.
+	- Summarized syntax cannot be. Write a SYNOPSIS with examples, you should. Contact peers. Name summary2.pod.
+3. TDD. Test Driven Development. Software development methodology that simplifies programming to the repetition of a short Red/Green/Refector loop.
 	- [Test::Simple Tutorial](http://search.cpan.org/dist/Test-Simple/lib/Test/Tutorial.pod)
+	- Practice: Write a test for person. That ensures that after setting an initial age, attempts to set a non numeric age do not change the person's age. Into practice7 directory.
 	- [Test::More](http://search.cpan.org/~exodist/Test-Simple-1.302022/lib/Test/More.pm)
 	- [Test::Exception](http://search.cpan.org/~exodist/Test-Exception-0.43/lib/Test/Exception.pm)
+	- Practice: Research exceptions and modify person to throw an exception when a non numeric age is set. Test the module to verify that numeric ages do not produce an exception but non numeric ages do. Into practice8 directoy. Into practice8 diractory.
 	- [Test Driven Development by Example](http://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
 	- Practice with a simple module with a test, you should.
+	- Summarize what are the main points behind the TDD cycle, Perl modules that aid in testing and list methods can be used from each module. Name summary3.pod.  
 4. Design Patterns with Perl. Understand Factory, Builder, Factory method, Object Pool, Singleton, Adapter, Composite, Decorator, Facade, Proxy, Command, Observer, Strategy, Template Method and Visitor.
 	- [Check patterns in Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 	- [Contrast with nice graphics from sourcemaking.com](https://sourcemaking.com/design_patterns)
 	- [See them translated to Perl in Perl Design Patterns](http://perldesignpatterns.com/perldesignpatterns.html) 
 	- Summarize three patterns either coordinating with your peers to collaborate or avoid repeating. Provide an explanation in Spanish and an example with real life objects. In the lines of "Un cajon con utensilios de cocina se puede considerar un Object Pool ya los mismos se comparten entre varias personas que los devuelven para ser reutilizados ahorrando la complejidad de crear un tenedor y destruirlo antes y despues de cada comida a diferencia de un tenedor descartable de plastico que debe de ser instanciado y destruido antes y despues de cada uso".
-5. Review summaries with peers and create a single pull request with your tribute of knowledge to de Jedi Masters.
-6. [Self organize](https://en.wikipedia.org/wiki/Self-organization) with your peers during week 2 to deside when to practice and provide summaries during the course of the week.
+5. Review summaries with peers and create a single pull request with your group's tribute of knowledge to the Jedi Masters. Repeat each reading week for summaries.
+6. [Self organize](https://en.wikipedia.org/wiki/Self-organization) with your peers during week 2 to select what to practice and what to write about in summaries during the course of the week. Maintain the pattern of names and directories from week 1. Select an ammount of practice and summaries the whole group can commit to achive their commitment. Document your decisions with a similar format to week 1 in the next section of this document. Produce a single pull request when done.
 
 ####Week 2####
-
+1. Modern Perl OOP.
+	- [Getting started with Moose](http://www.theperlreview.com/articles/moose.html)
+	- [Moose Manual](http://search.cpan.org/~ether/Moose-2.1804/lib/Moose/Manual.pod)
+	- [Moose Cookbook](http://search.cpan.org/~ether/Moose-2.1804/lib/Moose/Cookbook.pod)
+	- [Moose Person Example](http://perlmaven.com/object-oriented-perl-using-moose)
+	- [Yet Another Moose Person Example](http://search.cpan.org/~ether/Moose-2.1804/lib/Moose/Cookbook/Basics/Person_BUILDARGSAndBUILD.pod)
+	- [Extending Non Moose Classes with Moose](http://search.cpan.org/~doy/MooseX-NonMoose-0.26/lib/MooseX/NonMoose.pm)
+	- You do get to self organize but you should be thinking about porting that person example to Moose and rewriting some tests.
+	- It seems a summary per point was the standard for last week. Hopefully self organization keeps up with it.
+2. For next week. Only a list of modules is provided. Self organize to determine sources of study. CPAN is recommended. Also define and execute practices and provide a summary for each modules core functionality. Document your choices in next section of this document. Produce a single pull request when done.
 
 ####Week 3####
+1. LWP::UserAgent
+2. DBI
+3. JSON
+4. DateTime
+5. Dancer
+6. WWW::Mechanize
+7. WWW::Mechanize::PhantomJS
+8. Digest::SHA
+9. Crypt::Rijndael
+10. Excel::Write::XLSX
+11. SOAP::Lite
+12. REST::Client
+13. Find a module that process [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
+14. Find a module that allows to resize images.
+15. Test SOAP
+16. Send mail with attachments
+17. Implement a mail server
+18. Implement a HTTP server
+19. Use Memcached
+20. Connect to SSH
+21. Generate Barcodes
+22. Generate PDF documents
+23. Parse HTML
+24. Parse XML
+25. Implement a Binary Tree
+26. Parse config files
+27. Test TCP servers
+28. Extract links from HTML
+29. Automate Facebook Graph querying
+30. Minifies Javascript
 
 ###Learning Days###
 
