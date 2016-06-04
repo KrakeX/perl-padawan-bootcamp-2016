@@ -206,10 +206,10 @@ Reading days are organized in sprints of 7 days for each group of knowledge keyp
 The structure behind each reading week is Read, Practice, Commit (not related to [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) but a good read anyways...).
 
 1. ####Read:####
-A list of suggested topics with a suggested 
+A list of suggested topics with a suggested reading order.
 
 2. ####Practice:####
-Padawans are encuraged to practice what they have read on a free 
+Padawans are encouraged to practice what they have read and commit code and POD formatted summaries under their personal directory in padawan_training_grounds/week#. If you choose to commit a single pull request by Padawan is expected by Wednesday.
 
 3. ####Commit:####
 Padawans will collaborate on the editing and committing of a single small [POD](https://juerd.nl/site.plp/perlpodtut), [More POD](http://perldoc.perl.org/perlpod.html).
@@ -225,10 +225,29 @@ Documents are due on Wednesdays.
 Each week a pull request with a new file in the padawans_summaries directory as a single pull request when the group agrees the document represents the most important topics.
 
 ####Week 1####
+Basic development frameworks and 
 
-1. 
+1. POD. Plain Old Documentation. Standard Perl documentation format suppointing inline documentation, coverage test and automatic documentation generation in PDF and HTML amongs others.
+	-
+2. TDD. Test Driven Development. Software development methodology that simplifies programming to the repetition of a short Red/Green/Refector loop.
+	-
+3. Perl Basic Syntax. Mostly from Beggining Perl, [free in full here](http://learn.perl.org/books/beginning-perl/)
+	- [Beggining Perl, Chapter 1: First Steps In Perl](http://blob.perl.org/books/beginning-perl/3145_Chap01.pdf)
+	- [Beggining Perl, Chapter 2: Working with Simple Values](http://blob.perl.org/books/beginning-perl/3145_Chap02.pdf)
+	- [Beggining Perl, Chapter 3: Lists and Hashes](http://blob.perl.org/books/beginning-perl/3145_Chap03.pdf)
+	- [Beggining Perl, Chapter 4: Loops and Decisions](http://blob.perl.org/books/beginning-perl/3145_Chap04.pdf)
+	- [Beggining Perl, Chapter 7: References](http://blob.perl.org/books/beginning-perl/3145_Chap07.pdf)
+	- [Beggining Perl, Chapter 8: Subroutines](http://blob.perl.org/books/beginning-perl/3145_Chap08.pdf)
+	- [Beggining Perl, Chapter 10: Modules](http://blob.perl.org/books/beginning-perl/3145_Chap10.pdf)
+	- [Beggining Perl, Chapter 11: Object-Oriented Perl](http://blob.perl.org/books/beginning-perl/3145_Chap11.pdf)
+4. Design Patterns with Perl. Understand Factory, Builder, Factory method, Object Pool, Singleton, Adapter, Composite, Decorator, Facade, Proxy, Command, Observer, Strategy, Template Method and Visitor.
+	- [Perl Design Patterns](http://perldesignpatterns.com/perldesignpatterns.html) 
+	- [Contrast with Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+	- [Contrast with nice graphics from sourcemaking.com](https://sourcemaking.com/design_patterns)
 
 ####Week 2####
+
+
 
 ####Week 3####
 
