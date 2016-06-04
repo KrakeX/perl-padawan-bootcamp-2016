@@ -261,16 +261,16 @@ Basic development frameworks and Perl Syntax
 	- [Test Driven Development by Example](http://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
 	- Practice with a simple module with a test, you should.
 	- Summarize what are the main points behind the TDD cycle, Perl modules that aid in testing and list methods can be used from each module. Name summary3.pod.  
-4. Design Patterns with Perl. Understand Factory, Builder, Factory method, Object Pool, Singleton, Adapter, Composite, Decorator, Facade, Proxy, Command, Observer, Strategy, Template Method and Visitor.
+4. Review summaries with peers and create a single pull request with your group's tribute of knowledge to the Jedi Masters. Repeat each reading week for summaries.
+5. [Self organize](https://en.wikipedia.org/wiki/Self-organization) with your peers during week 2 to select what to practice and what to write about in summaries during the course of the week. Maintain the pattern of names and directories from week 1. Select an ammount of practice and summaries the whole group can commit to achive their commitment. Document your decisions with a similar format to week 1 in the next section of this document. Produce a single pull request when done.
+
+####Week 2####
+1. Design Patterns with Perl. Understand Factory, Builder, Factory method, Object Pool, Singleton, Adapter, Composite, Decorator, Facade, Proxy, Command, Observer, Strategy, Template Method and Visitor.
 	- [Check patterns in Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 	- [Contrast with nice graphics from sourcemaking.com](https://sourcemaking.com/design_patterns)
 	- [See them translated to Perl in Perl Design Patterns](http://perldesignpatterns.com/perldesignpatterns.html) 
-	- Summarize three patterns either coordinating with your peers to collaborate or avoid repeating. Provide an explanation in Spanish and an example with real life objects. In the lines of "Un cajon con utensilios de cocina se puede considerar un Object Pool ya los mismos se comparten entre varias personas que los devuelven para ser reutilizados ahorrando la complejidad de crear un tenedor y destruirlo antes y despues de cada comida a diferencia de un tenedor descartable de plastico que debe de ser instanciado y destruido antes y despues de cada uso".
-5. Review summaries with peers and create a single pull request with your group's tribute of knowledge to the Jedi Masters. Repeat each reading week for summaries.
-6. [Self organize](https://en.wikipedia.org/wiki/Self-organization) with your peers during week 2 to select what to practice and what to write about in summaries during the course of the week. Maintain the pattern of names and directories from week 1. Select an ammount of practice and summaries the whole group can commit to achive their commitment. Document your decisions with a similar format to week 1 in the next section of this document. Produce a single pull request when done.
-
-####Week 2####
-1. Modern Perl OOP.
+	- Summarize three patterns either coordinating with your peers to collaborate and avoid repeating patterns. Provide an explanation in Spanish and an example with real life objects. In the lines of "Un cajon con utensilios de cocina se puede considerar un Object Pool ya los mismos se comparten entre varias personas que los devuelven para ser reutilizados ahorrando la complejidad de crear un tenedor y destruirlo antes y despues de cada comida a diferencia de un tenedor descartable de plastico que debe de ser instanciado y destruido antes y despues de cada uso".
+2. Modern Perl OOP.
 	- [Getting started with Moose](http://www.theperlreview.com/articles/moose.html)
 	- [Moose Manual](http://search.cpan.org/~ether/Moose-2.1804/lib/Moose/Manual.pod)
 	- [Moose Cookbook](http://search.cpan.org/~ether/Moose-2.1804/lib/Moose/Cookbook.pod)
@@ -279,9 +279,11 @@ Basic development frameworks and Perl Syntax
 	- [Extending Non Moose Classes with Moose](http://search.cpan.org/~doy/MooseX-NonMoose-0.26/lib/MooseX/NonMoose.pm)
 	- You do get to self organize but you should be thinking about porting that person example to Moose and rewriting some tests.
 	- It seems a summary per point was the standard for last week. Hopefully self organization keeps up with it.
-2. For next week. Only a list of modules is provided. Self organize to determine sources of study. CPAN is recommended. Also define and execute practices and provide a summary for each modules core functionality. Document your choices in next section of this document. Produce a single pull request when done.
+3. For next week. Only a list of modules is provided. Self organize to determine sources of study. CPAN is recommended. Also define and execute practices and provide a summary for each modules core functionality. Document your choices in next section of this document. Produce a single pull request when done.
 
 ####Week 3####
+1. App::Prove
+2. App::Cpanminus
 1. LWP::UserAgent
 2. DBI
 3. JSON
@@ -312,6 +314,8 @@ Basic development frameworks and Perl Syntax
 28. Extract links from HTML
 29. Automate Facebook Graph querying
 30. Minifies Javascript
+31. Test each module with a proposed practice. Each Padawan should produce a pull request.
+32. Document each modules functionality in pod format follow module documentation guidelines. Produce a single pull request for your group.
 
 ###Learning Days###
 
