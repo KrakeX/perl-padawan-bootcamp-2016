@@ -228,9 +228,11 @@ Each week a pull request with a new file in the padawans_summaries directory as 
 Basic development frameworks and 
 
 1. POD. Plain Old Documentation. Standard Perl documentation format suppointing inline documentation, coverage test and automatic documentation generation in PDF and HTML amongs others.
-	-
-2. TDD. Test Driven Development. Software development methodology that simplifies programming to the repetition of a short Red/Green/Refector loop.
-	-
+	- [Writing POD](http://perlhacks.com/articles/rtfm/writing-plain-old-documentation/)
+	- [POD in 5 minutes](https://juerd.nl/site.plp/perlpodtut)
+	- [POD embedded](http://perldoc.perl.org/perlsyn.html#PODs%3a-Embedded-Documentation)
+	- [the Plain Old Documentation format](http://perldoc.perl.org/perlpod.html)
+	- Write a summary, you must. Think "What is POD and what are its main features?". Contact peers.
 3. Perl Basic Syntax. Mostly from Beggining Perl, [free in full here](http://learn.perl.org/books/beginning-perl/)
 	- [Beggining Perl, Chapter 1: First Steps In Perl](http://blob.perl.org/books/beginning-perl/3145_Chap01.pdf)
 	- [Beggining Perl, Chapter 2: Working with Simple Values](http://blob.perl.org/books/beginning-perl/3145_Chap02.pdf)
@@ -240,13 +242,23 @@ Basic development frameworks and
 	- [Beggining Perl, Chapter 8: Subroutines](http://blob.perl.org/books/beginning-perl/3145_Chap08.pdf)
 	- [Beggining Perl, Chapter 10: Modules](http://blob.perl.org/books/beginning-perl/3145_Chap10.pdf)
 	- [Beggining Perl, Chapter 11: Object-Oriented Perl](http://blob.perl.org/books/beginning-perl/3145_Chap11.pdf)
+	- [Perl Syntax](http://perldoc.perl.org/perlsyn.html)
+	- Summarized syntax cannot be. Write a SYNOPSIS, you should.
+2. TDD. Test Driven Development. Software development methodology that simplifies programming to the repetition of a short Red/Green/Refector loop.
+	- [Test::Simple Tutorial](http://search.cpan.org/dist/Test-Simple/lib/Test/Tutorial.pod)
+	- [Test::More](http://search.cpan.org/~exodist/Test-Simple-1.302022/lib/Test/More.pm)
+	- [Test::Exception](http://search.cpan.org/~exodist/Test-Exception-0.43/lib/Test/Exception.pm)
+	- [Test Driven Development by Example](http://www.eecs.yorku.ca/course_archive/2003-04/W/3311/sectionM/case_studies/money/KentBeck_TDD_byexample.pdf)
+	- Practice with a simple module with a test, you should.
 4. Design Patterns with Perl. Understand Factory, Builder, Factory method, Object Pool, Singleton, Adapter, Composite, Decorator, Facade, Proxy, Command, Observer, Strategy, Template Method and Visitor.
-	- [Perl Design Patterns](http://perldesignpatterns.com/perldesignpatterns.html) 
-	- [Contrast with Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+	- [Check patterns in Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
 	- [Contrast with nice graphics from sourcemaking.com](https://sourcemaking.com/design_patterns)
+	- [See them translated to Perl in Perl Design Patterns](http://perldesignpatterns.com/perldesignpatterns.html) 
+	- Summarize three patterns either coordinating with your peers to collaborate or avoid repeating. Provide an explanation in Spanish and an example with real life objects. In the lines of "Un cajon con utensilios de cocina se puede considerar un Object Pool ya los mismos se comparten entre varias personas que los devuelven para ser reutilizados ahorrando la complejidad de crear un tenedor y destruirlo antes y despues de cada comida a diferencia de un tenedor descartable de plastico que debe de ser instanciado y destruido antes y despues de cada uso".
+5. Review summaries with peers and create a single pull request with your tribute of knowledge to de Jedi Masters.
+6. [Self organize](https://en.wikipedia.org/wiki/Self-organization) with your peers during week 2 to deside when to practice and provide summaries during the course of the week.
 
 ####Week 2####
-
 
 
 ####Week 3####
