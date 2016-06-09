@@ -281,7 +281,35 @@ You will commit all your code on a daily basis, when you finish your practice an
 
 ### Introduction
 
-####Topic 0: Introduction to Object Oriented Programming Concepts####
+####Topic 0: Introduction to Perl####
+
+#####Reading:#####
+1. Basics: [Perl language structure](https://en.wikipedia.org/wiki/Perl_language_structure).
+2. Basics: [Perl Intro](http://perldoc.perl.org/perlintro.html).
+3. Basics: [Perl Data Types](http://perldoc.perl.org/perldata.html).
+4. Basics: [Perl Operators](http://perldoc.perl.org/perlop.html).
+5. Basics: [Perl Functions](http://perldoc.perl.org/perlfunc.html).
+6. Basics: [Perl Subroutines](http://perldoc.perl.org/perlsub.html).
+
+#####Practice:#####
+
+1. Write a piece of code that calculates the first 10 Fibonacci numbers. Only numbers 0 and 1 can be hardcoded.
+2. Change your code to output to a file.
+3. Create a subroutine that takes the 10th Fibonacci number and uses it as the length parameter. The subroutine should output a string of the given length of random caracters choosen from an array that contains the range a..z.
+4. Take the resulting string and convert to A-Z range with a single function call.
+5. Create a subrouting that receives the previous string and computes the [ADLER32](https://en.wikipedia.org/wiki/Adler-32) sum of the string.
+
+#####Key Points:#####
+
+1,2,3,4,5
+
+#####Commit:#####
+
+Generate a Pull Request with your tested practice code.
+
+→ [index](#index)
+
+####Topic 1: Introduction to Object Oriented Programming Concepts####
 
 #####Reading:#####
 
@@ -308,7 +336,7 @@ Generate a Pull Request with your tested practice code.
 
 → [index](#index)
 
-####Topic 1: CPAN Dependencies####
+####Topic 2: CPAN Dependencies####
 
 #####Reading:#####
 1. [App::cpanminus](http://search.cpan.org/~miyagawa/App-cpanminus-1.7042/lib/App/cpanminus.pm)
@@ -333,7 +361,7 @@ Generate a Pull Request with your practice code.
 
 → [index](#index)
 
-####Topic 2: Test Driven Development (2 days)####
+####Topic 3: Test Driven Development (2 days)####
 
 #####Reading:#####
 1. [Test Driven Development](http://www.mclean.net.nz/osdc-tdd-full.pdf)
@@ -359,7 +387,7 @@ Generate a Pull Request that shows commits for each of your TDD iterations. Comm
 → [index](#index)
 
 
-####Topic 3: Services (2 days)####
+####Topic 4: Services (2 days)####
 
 #####Reading:#####
 1. [REST WS in Perl with Dancer](http://www.techumber.com/2014/08/create-restful-services-using-perl.html). Install modules using cpanm instead of ppm. 
@@ -388,7 +416,7 @@ Generate a Pull Request showing TDD cycles for your practice code.
 → [index](#index)
 
 
-####Topic 4: SQL - MySql (2 days)####
+####Topic 5: SQL - MySql (2 days)####
 
 #####Reading:#####
 1. [MySql basis](http://www.vogella.com/tutorials/MySQL/article.html)
@@ -470,7 +498,7 @@ Generate a Pull Request with your practice code.
 
 → [index](#index)
 
-####Topic 6: Spring Core & REST (3 days)####
+####Topic 6: REST (3 days)####
 
 #####Reading:#####
 1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
