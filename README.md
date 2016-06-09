@@ -1,12 +1,10 @@
 # Perl Padawan Camp 2016
 
-Please, use this repository as a base for you training phase. The idea is to
-fork this project so everyone use the same folder structure for the
-exercises.
+Please, use this repository as a base for you training phase. Fork this project
+and keep the directory structure as a base for your commits.
 
 It's extremelly important to keep the key points easy to be verified by
-the reviewers, so **don't mix the key points with the rest of the
-exercises**
+the reviewers. *Do not mix the key points with the rest of the exercises*
 
 # Material
 
@@ -146,59 +144,6 @@ Every person participating in the boot camp is present here (participants and tu
 
 → [index](#index)
 
-###Proposed Test Application
-
-The test application will consist in a REST API for a functional shopping cart.
-
-Key Points, minimum features to be completed are:
-
-  - POD Documented API. 2 points. [Read perlpod](http://perldoc.perl.org/perlpod.html)
-  - POD Documented methods. 2 points. [More perlpod](https://juerd.nl/site.plp/perlpodtut)
-  - Unit tests. 2 points. [Read Test::More](http://perldoc.perl.org/Test/More.html)
-  - User registration and removal. 2 points.
-  - Add products to catalog. 2 points.
-  - Products must persist. 2 points. [Read DBD::mysql](http://search.cpan.org/~capttofu/DBD-mysql-4.033/lib/DBD/mysql.pm) 
-  - Find products by category and name. 2 points.
-  - Export Excel spreadsheet. 2 points. [Read Excel::Writer::XLSX](http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX-0.92/lib/Excel/Writer/XLSX.pm)
-
-Challange points are:
-
-  - Import Excel spreadsheet with all products. 20 points. [Read Spreadsheet::XLSX](http://search.cpan.org/~mikeb/Spreadsheet-XLSX-0.15/lib/Spreadsheet/XLSX.pm)
-  - Add products to cart. 10 points.
-  - Delete product from cart. 10 points.
-  - Get cart contents. 10 points.
-  - Consume prices from WS in "wsPrices". 10 points. [Read SOAP::Lite](http://guide.soaplite.com/) [Read More SOAP::Lite](http://search.cpan.org/~phred/SOAP-Lite-1.19/lib/SOAP/Lite.pm)
-  - Authenticate against WS in "wsAuthentication". 10 points. [Read Rest::Client](http://search.cpan.org/~kkane/REST-Client/lib/REST/Client.pm) [Read JSON](http://search.cpan.org/~makamaka/JSON-2.90/lib/JSON.pm)
-  - Migrate "wsAuthentication" from SQLite to MySQL. [Read DBI](http://search.cpan.org/~timb/DBI-1.636/DBI.pm) [Read DBD::SQLite](http://search.cpan.org/~ishigaki/DBD-SQLite/lib/DBD/SQLite.pm) [Read DBD::mysql](http://search.cpan.org/~capttofu/DBD-mysql-4.033/lib/DBD/mysql.pm) 
-  - Cached prices. 10 points. [Read Memoize](http://perldoc.perl.org/Memoize.html)
-  - Cached users. 10 points.
-  - Cache with Memcached. 10 points. [Read Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/) or [Read Memoize::Memcached](http://search.cpan.org/~tcohen/Memoize-Memcached-0.04/lib/Memoize/Memcached.pm)
-
-Nice to have:
-
-  - Multiple instances with a balancing proxy. 30 points. [Read HAProxy](https://serversforhackers.com/load-balancing-with-haproxy)
-  - Multiple instances of memcached. 30 points. [Reread Cache::Memcached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
-  - Non plain text authentication. 30 points. Read wsAuthentication docs. Also [Read Digest::BCrypt](http://search.cpan.org/~capoeirab/Digest-Bcrypt/lib/Digest/Bcrypt.pm)
-
-All requests except registration must require authentication from the documentation.
-
-Features will be considered "done" when integration tests in the "integration" directory contained in "padawan_training_grounds" pass. Read [Definition of Done](https://www.scrumalliance.org/community/articles/2008/september/definition-of-done-a-reference) for the concept behind this.
-Documentation and unit tests will be considered "done" if a Jedi Master judges it to have 100% coverage.
-Jedi Masters will write integration tests during week four in parallel with development.
-
-Value for each feature may change at any time. This document holds valid values at any given time.
-Requested features may be dropped at any time and will be considered 0 points worth.
-
-Each passing Jedi Master integration test is worth 10 points.
-Jedi Masters can change integration tests at any time, even already passing ones.
-Wrong integration tests can only be changed by Jedi Masters.
-
-Each unique implemented unit test is worth 1 point.
-
-Missing documentation coverage of a method voids all unit test points.
-Missing documentation coverage of API endpoints voids all related feature points.
-Not nailing a minimum viable product voids all points. [Read MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
-
 ###Reading Days###
 
 Reading days are organized in sprints of 7 days for each group of knowledge keypoints.
@@ -336,31 +281,22 @@ You will commit all your code on a daily basis, when you finish your practice an
 
 ### Introduction
 
-  - [JVM](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html#t1s1). See: "Java Technology and the JVM" and "Describing Garbage Collection"
-
-####Topic 0: Introduction to Object Oriented Programming Concepts (2 days)####
+####Topic 0: Introduction to Object Oriented Programming Concepts####
 
 #####Reading:#####
 
-1. Beginners: Java Concepts [basic tutorial](http://docs.oracle.com/javase/tutorial/java/concepts/) (in case you need it!)
-
-2. Beginners: Have fun with [Introduction to Java Programming](http://www.ibm.com/developerworks/java/tutorials/j-introtojava1/). Do as much you can.
-
-3. Explore [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns). Minimum scope: singleton, factory, abstract factory, strategy, template method, proxy, decorator and builder.
-
-#####Extra documentation:#####
-
-* [Design Patterns Card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
-
+1. Beginners: Perl Object Oriented Programming [Tutorial](http://perldoc.perl.org/perlootut.html).
+2. Beginners: Introduction to Moose, A postmodern object system for Perl [Moose Introduction](http://www.slideshare.net/davorg/introduction-to-oo-perl-with-moose).
+3. Review design patterns! [Design Patterns](http://perldesignpatterns.com/perldesignpatterns.html) 
 
 #####Practice:#####
 
-Note that you don't need to create real database connections, [just mock it](https://en.wikipedia.org/wiki/Mock_object) (create a simulation of them).
+Follow the article [Attribute types in Perl classes when using Moose](http://perlmaven.com/attribute-types-in-perl-classes-when-using-moose).
 
-1. Create a singleton example for a database connection.
-2. Create a abstract factory example for diferent type of SQL connections. See [this](http://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm) example.
-3. Create a proxy example for database accesor clases.
-4. Create a builder example for database connection.
+1. Write the class described in the article.
+2. Read [Moose::Manual](http://search.cpan.org/dist/Moose/lib/Moose/Manual.pod) and create a subclass of Person to handle user logins. It should check a password set on object creation. Throw an exception on wrong passwords.
+3. Create tests to prove wrong passwords fail with an exception and correct passwords do not.
+4. Create a DB_User class that extends the user login class and uses data from mysql to check for the password. Mysql native encrypted passwords are nice to have.
 
 #####Key Points:#####
 
@@ -368,62 +304,57 @@ Note that you don't need to create real database connections, [just mock it](htt
 
 #####Commit:#####
 
-Commit your practice code.
+Generate a Pull Request with your tested practice code.
 
 → [index](#index)
 
-####Topic 1: Maven (1 day)####
+####Topic 1: CPAN Dependencies####
 
 #####Reading:#####
-1. [What is Maven?](http://maven.apache.org/what-is-maven.html)
-
-2. Have fun with [Maven in 5 minutes](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html). 
-
-3. Maven: [best practices](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
+1. [App::cpanminus](http://search.cpan.org/~miyagawa/App-cpanminus-1.7042/lib/App/cpanminus.pm)
+2. Read [cpanm](http://search.cpan.org/~miyagawa/App-cpanminus-1.7042/bin/cpanm) -L option.
+3. Re read [Excel::Writer::XLSX](http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX-0.94/lib/Excel/Writer/XLSX.pm), [DBI](http://search.cpan.org/~timb/DBI-1.636/DBI.pm) and [DBD::SQLite](http://search.cpan.org/~ishigaki/DBD-SQLite-1.50/lib/DBD/SQLite.pm).
 
 #####Practice:#####
 
-(It is assumed that Maven is already installed and working).
-
-1. Create and build a simple Maven project:
-2. Customize the Maven project by adding new dependencies: log4j, junit.
-3. Create a simple unit test under src/test/java and run it. Then skip the unit test by property or by adding the skipping test configuration to your pom.xml file.
+1. Create a script that exports a users table to Excel. Include Name, Lastname, Login and Password.
+2. Password should be masked to show only first and last characters. Apply [Regexp](http://perldoc.perl.org/perlre.html).
+3. Add parameters with [Getopt::Long](http://perldoc.perl.org/Getopt/Long.html) to allow command line switches that allow to exclude fields from the Excel output.
+4. Create tests that ensure passwords get masked. Oops... what about single caracter passwords?
+5. A script does not mean you have no classes. Refactor accordingly.
 
 #####Key Points:#####
 
-1,2,3
+1, 4, 5.
 
 #####Commit:#####
 
-Commit your practice code.
+Generate a Pull Request with your practice code.
 
 → [index](#index)
-
 
 ####Topic 2: Test Driven Development (2 days)####
 
 #####Reading:#####
-1. [Test Driven Development](http://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/)
+1. [Test Driven Development](http://www.mclean.net.nz/osdc-tdd-full.pdf)
 
 #####Practice:#####
 
 1. Use TDD to create the 'Recent file list' behaviour. Some examples of this behaviour is:
-  * When the program is run for the first time, the list is empty.
-  * When a file is opened, it is added to the recent file list.
-  * If an opened file already exists in the recent file list, it is bumped to the top, not duplicated in the list.
-  * If the recent file list gets full (typical number of items is 15), the oldest item is removed when a new item is added.
-2. Using TDD techniques such as mocking, faking and stubs, try to develop your own blog software featuring:
-  * Post new entry
-  * Delete existing entry
-  * Show 10 most recent entries
+2. When the program is run for the first time, the list is empty.
+3. When a file is opened, it is added to the recent file list.
+4. If an opened file already exists in the recent file list, it is bumped to the top, not duplicated in the list.
+5. If the recent file list gets full (typical number of items is 15), the oldest item is removed when a new item is added.
+6. Add persistence in plain text files. [Perl > Functions > Open](http://perldoc.perl.org/functions/open.html)
+7. Refactor your solution to allow both plaintext files or DBI with SQLite.
  
 #####Key Points:#####
 
-2
+4, 6
 
 #####Commit:#####
 
-Commit your practice code.
+Generate a Pull Request that shows commits for each of your TDD iterations. Commit often! Should those Red, Green, Refactor cycles.
 
 → [index](#index)
 
@@ -431,27 +362,28 @@ Commit your practice code.
 ####Topic 3: Services (2 days)####
 
 #####Reading:#####
-1. [How to create services in Java](http://www.makinggoodsoftware.com/2009/11/17/how-to-create-services-in-java/)
-
-2. [How to design a good API and why it matters](https://www.youtube.com/watch?v=aAb7hSCtvGw)
+1. [REST WS in Perl with Dancer](http://www.techumber.com/2014/08/create-restful-services-using-perl.html). Install modules using cpanm instead of ppm. 
+2. [More REST WS in Perl with Dancer](http://www.codeproject.com/Articles/414446/REST-Service-with-Perl-and-Dancer).
+3. [RESTful dancing with Dancer::Plugin::REST](http://blogs.perl.org/users/job_van_achterberg/2011/09/making-restful-dancing-easy-with-dancerpluginrest.html)
+4. [How to design a good API and why it matters](https://www.youtube.com/watch?v=aAb7hSCtvGw)
 
 #####Practice:#####
 
-1. Create a shopping cart API spec
-2. Implement the previous shopping cart using TDD.
-3. Document services.
-4. Design a UserService for CRUD operations.
-5. Implement and document previous UserService.
+1. Create a shopping cart API spec.
+2. Implement the specs using TDD.
+3. Document services inline with POD as you develop. Include the API docs within the classes. Possible creating a ::Specs class to hold API specs and no code.
+4. Design a service that handler CRUD operations.
+5. Implement the CRUD service.
 
-Note: Do not implement JPA or ORM. Services should return in memory data only.
+Note: Do not worry about persistence. Hardcode data in a separate Package so that it can be easily extended later, keep new users in memory.
 
 #####Key Points:#####
 
-2,4,7
+2, 4
 
 #####Commit:#####
 
-Commit your practice code.
+Generate a Pull Request showing TDD cycles for your practice code.
 
 → [index](#index)
 
@@ -461,15 +393,10 @@ Commit your practice code.
 #####Reading:#####
 1. [MySql basis](http://www.vogella.com/tutorials/MySQL/article.html)
 
-2. [Jdbc basis](http://www.vogella.com/tutorials/MySQLJava/article.html#jdbc)
-
-#####Extra documentation:#####
-
-1. [Optimizaciones en MySql](http://www.arsys.info/programacion/bases-de-datos/como-optimizar-bases-de-datos-mysql/)
-
+2. [Optimizaciones en MySql](http://www.arsys.info/programacion/bases-de-datos/como-optimizar-bases-de-datos-mysql/)
 
 #####Practice:#####
-Do not solve the practice using JDBC, please just send us the sql scripts.
+This practice is SQL oriented. Do not commit Perl code but SQL scripts unless instructed.
 
 1. Create a database named 'high-school' and modelate:
  
@@ -500,8 +427,8 @@ Do not solve the practice using JDBC, please just send us the sql scripts.
           Monday 15:00 - 17:30: <course-name>
           Friday 08:45 - 10:40: <course-name>
 
-6. Identify and Optimize all queries.
-7. Connect to MySQL using Java JDBC and perform the query you have developed in excercise 5.
+6. Identify and optimize all queries.
+7. Connect to MySQL using DBI and perform the query you have developed in excercise 5.
 
 #####Key Points:#####
 
@@ -509,7 +436,7 @@ Do not solve the practice using JDBC, please just send us the sql scripts.
 
 #####Commit:#####
 
-Commit your practice code.
+Pull Request with SQL scripts and script.
 
 → [index](#index)
 
@@ -522,15 +449,16 @@ Commit your practice code.
 
 3. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
 
-4. [Morphia to Map Java objects in MongoDB](https://dzone.com/articles/using-morphia-map-java-objects)
+4. [MongoDB](http://search.cpan.org/~mongodb/MongoDB-v1.4.1/lib/MongoDB.pm)
 
+5. [MongoDB Tutorial](http://search.cpan.org/~mongodb/MongoDB-v1.4.1/lib/MongoDB/Tutorial.pod)
 
 #####Practice:#####
 
 1. Using the same SQL-MySql data model, map it to the corresponding database, collections and documents.
-2. Fetch all students whose notes in a specific course were greater than 4.
-3. Fetch all courses ordered by name for a given teacher.
-4. Create a new project using Maven and Morphia to map the objects created in 1. Create the necessary DAOs to get same result than 2.
+2. Create data classes that map fields from MongoDB to Perl objects. Read [AUTOLOAD](http://perldoc.perl.org/perlsub.html#Autoloading) for inspiration on how to lazy load remote data. Think [DAO](https://en.wikipedia.org/wiki/Data_access_object).
+3. Fetch all students whose notes in a specific course were greater than 4.
+4. Fetch all courses ordered by name for a given teacher.
 
 #####Key Points:#####
 
@@ -538,7 +466,7 @@ Commit your practice code.
 
 #####Commit:#####
 
-Commit your practice code.
+Generate a Pull Request with your practice code.
 
 → [index](#index)
 
@@ -547,11 +475,13 @@ Commit your practice code.
 #####Reading:#####
 1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
 
-2. [Quick development guide](https://spring.io/guides/gs/rest-service/)
+2. [Making your Perl Rest](http://www.slideshare.net/zostay/making-your-perl-rest-presentation).
 
-3. [Spring boot - rest services guide](http://spring.io/guides/tutorials/bookmarks/)
+3. [Rasin](https://metacpan.org/pod/Raisin) an alternate REST framework for Perl with a simple DSL.
 
 4. [REST API documentation](http://swagger.io/getting-started/)
+
+5. [Swagger and Perl with Mojolicious](http://thorsen.pm/perl/programming/2015/07/05/mojolicious-swagger2.html)
   
 #####Practice:#####
 
@@ -565,20 +495,63 @@ Commit your practice code.
 
 #####Commit:#####
 
-Commit your practice code.
+Generate a Pull Request with your practice code.
 
 → [index](#index)
 
 ###Your First Project Starts Now!
 
-####Final Project (2 days)
-Create a functional shopping cart (just REST api). The minimum features to be completed are:
+####Final Project (7 days)
 
-  - User registration and login.
-  - Find products by category and name.
-  - Save Cart.
-  - Buy products.
+The test application will consist in a REST API for a functional shopping cart.
 
-The solution must use MongoDB or MySql as repository as well as Spring Boot and swagger for REST documentation.
+Key Points, minimum features to be completed are:
+
+  - POD Documented API. 2 points. [Read perlpod](http://perldoc.perl.org/perlpod.html)
+  - POD Documented methods. 2 points. [More perlpod](https://juerd.nl/site.plp/perlpodtut)
+  - Unit tests. 2 points. [Read Test::More](http://perldoc.perl.org/Test/More.html)
+  - User registration and removal. 2 points.
+  - Add products to catalog. 2 points.
+  - Products must persist. 2 points. [Read DBD::mysql](http://search.cpan.org/~capttofu/DBD-mysql-4.033/lib/DBD/mysql.pm) 
+  - Find products by category and name. 2 points.
+  - Export Excel spreadsheet. 2 points. [Read Excel::Writer::XLSX](http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX-0.92/lib/Excel/Writer/XLSX.pm)
+
+Challange points are:
+
+  - Import Excel spreadsheet with all products. 20 points. [Read Spreadsheet::XLSX](http://search.cpan.org/~mikeb/Spreadsheet-XLSX-0.15/lib/Spreadsheet/XLSX.pm)
+  - Add products to cart. 10 points.
+  - Delete product from cart. 10 points.
+  - Get cart contents. 10 points.
+  - Consume prices from WS in "wsPrices". 10 points. [Read SOAP::Lite](http://guide.soaplite.com/) [Read More SOAP::Lite](http://search.cpan.org/~phred/SOAP-Lite-1.19/lib/SOAP/Lite.pm)
+  - Authenticate against WS in "wsAuthentication". 10 points. [Read Rest::Client](http://search.cpan.org/~kkane/REST-Client/lib/REST/Client.pm) [Read JSON](http://search.cpan.org/~makamaka/JSON-2.90/lib/JSON.pm)
+  - Migrate "wsAuthentication" from SQLite to MySQL. [Read DBI](http://search.cpan.org/~timb/DBI-1.636/DBI.pm) [Read DBD::SQLite](http://search.cpan.org/~ishigaki/DBD-SQLite/lib/DBD/SQLite.pm) [Read DBD::mysql](http://search.cpan.org/~capttofu/DBD-mysql-4.033/lib/DBD/mysql.pm) 
+  - Cached prices. 10 points. [Read Memoize](http://perldoc.perl.org/Memoize.html)
+  - Cached users. 10 points.
+  - Cache with Memcached. 10 points. [Read Cache::Membached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/) or [Read Memoize::Memcached](http://search.cpan.org/~tcohen/Memoize-Memcached-0.04/lib/Memoize/Memcached.pm)
+
+Nice to have:
+
+  - Multiple instances with a balancing proxy. 30 points. [Read HAProxy](https://serversforhackers.com/load-balancing-with-haproxy)
+  - Multiple instances of memcached. 30 points. [Reread Cache::Memcached](http://search.cpan.org/~dormando/Cache-Memcached-1.30/)
+  - Non plain text authentication. 30 points. Read wsAuthentication docs. Also [Read Digest::BCrypt](http://search.cpan.org/~capoeirab/Digest-Bcrypt/lib/Digest/Bcrypt.pm)
+
+All requests except registration must require authentication from the documentation.
+
+Features will be considered "done" when integration tests in the "integration" directory contained in "padawan_training_grounds" pass. Read [Definition of Done](https://www.scrumalliance.org/community/articles/2008/september/definition-of-done-a-reference) for the concept behind this.
+Documentation and unit tests will be considered "done" if a Jedi Master judges it to have 100% coverage.
+Jedi Masters will write integration tests during week four in parallel with development.
+
+Value for each feature may change at any time. This document holds valid values at any given time.
+Requested features may be dropped at any time and will be considered 0 points worth.
+
+Each passing Jedi Master integration test is worth 10 points.
+Jedi Masters can change integration tests at any time, even already passing ones.
+Wrong integration tests can only be changed by Jedi Masters.
+
+Each unique implemented unit test is worth 1 point.
+
+Missing documentation coverage of a method voids all unit test points.
+Missing documentation coverage of API endpoints voids all related feature points.
+Not nailing a minimum viable product voids all points. [Read MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
 Thanks for reading!
