@@ -281,6 +281,8 @@ Every iteration's practice section is divided into "Key Points" (comparable to a
 #####Commit:#####
 You will commit all your code on a daily basis, when you finish your practice and receive peer code reviews and optional Perl Jedi Master guidance.
 
+→ [index](#index)
+
 ### Introduction
 
 ####Topic 0: Introduction to Perl####
