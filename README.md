@@ -270,15 +270,15 @@ Each day you will grab the fundamentals of the key building blocks of Perl appli
 
 On each learning day you will have to:
 
-1. ####Read:####
+#####Read:#####
 Jedi Masters have selected documentation about the focal point of each iteration for background reference. Each iteration also has an associated guide and examples.
 
-2. ####Practice:####
+#####Practice:#####
 You will implement the previously gathered knowledge in simple coding activities.
 
 Every iteration's practice section is divided into "Key Points" (comparable to a definition of the [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product); thus the tasks you should pay the most attention and start as early as possible, "Challange" (tasks that expect to lead you beyond your confort zone and into the hairy matters of camel herding, you can start by looking that up!), "Nice to have" (extra tasks that lead you into the road of Jedi wisdom).
 
-3. ####Commit:####
+#####Commit:#####
 You will commit all your code on a daily basis, when you finish your practice and receive peer code reviews and optional Perl Jedi Master guidance.
 
 ### Introduction
