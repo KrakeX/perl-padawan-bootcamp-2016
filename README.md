@@ -156,7 +156,7 @@ The structure behind each reading week is Read, Practice, Commit (not related to
 A list of suggested topics with a suggested reading order.
 
 2. ####Practice:####
-Padawans are encouraged to practice what they have read and commit code and POD formatted summaries under their personal directory in padawan_training_grounds/week#. If you choose to commit a single pull request by Padawan is expected by Wednesday.
+Padawans are encouraged to practice what they have read and commit code and POD formatted summaries under their personal directory in padawan_training_grounds/user/week#.pod. If you choose to commit a personal pull request it should be done by Wednesday.
 
 3. ####Commit:####
 Padawans will collaborate on the editing and committing of a single small [POD](https://juerd.nl/site.plp/perlpodtut), [More POD](http://perldoc.perl.org/perlpod.html).
