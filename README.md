@@ -584,4 +584,6 @@ Missing documentation coverage of a method voids all unit test points.
 Missing documentation coverage of API endpoints voids all related feature points.
 Not nailing a minimum viable product voids all points. [Read MVP](https://en.wikipedia.org/wiki/Minimum_viable_product)
 
+→ [index](#index)
+
 Thanks for reading!
