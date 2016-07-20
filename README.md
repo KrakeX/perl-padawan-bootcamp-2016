@@ -32,19 +32,21 @@ the reviewers. *Do not mix the key points with the rest of the exercises*
 
 9. [Learning Days](#learning-days)
 
-    * [Topic 0: Introduction to Object Oriented Programming Concepts (OOP)](#topic-0-introduction-to-object-oriented-programming-concepts-2-days)
+    * [Topic 0: Introduction to Perl](#topic-0-introduction-to-perl)
 
-    * [Topic 1: Maven](#topic-1-maven-1-day)
+    * [Topic 1: Introduction to Object Oriented Programming Concepts](#introduction-to-object-oriented-programming-concepts)
 
-    * [Topic 2: Test Driven Development](#topic-2-test-driven-development-2-days)
-
-    * [Topic 3: Services](#topic-3-services-2-days)
-
-    * [Topic 4: SQL - MySql](#topic-4-sql---mysql-2-days)
-
-    * [Topic 5: NoSQL - MongoDB](#topic-5-nosql---mongodb-2-days)
+    * [Topic 2: CPAN dependencies](#topic-2-cpan-dependencies)
     
-    * [Topic 6: Spring Core & REST](#topic-5-spring-core--rest-3-days)
+	* [Topic 3: Test Driven Developments](#topic-3-test-driven-development)
+
+    * [Topic 4: Services](#topic-4-services)
+
+    * [Topic 5: SQL - MySql](#topic-5-sql---mysql)
+
+    * [Topic 6: NoSQL - MongoDB](#topic-6-nosql---mongodb)
+    
+    * [Topic 7: REST](#topic-7-rest)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
@@ -361,7 +363,7 @@ Generate a Pull Request with your practice code.
 
 → [index](#index)
 
-####Topic 3: Test Driven Development (2 days)####
+####Topic 3: Test Driven Development####
 
 #####Reading:#####
 1. [Test Driven Development](http://www.mclean.net.nz/osdc-tdd-full.pdf)
@@ -387,7 +389,7 @@ Generate a Pull Request that shows commits for each of your TDD iterations. Comm
 → [index](#index)
 
 
-####Topic 4: Services (2 days)####
+####Topic 4: Services####
 
 #####Reading:#####
 1. [REST WS in Perl with Dancer](http://www.techumber.com/2014/08/create-restful-services-using-perl.html). Install modules using cpanm instead of ppm. 
@@ -416,7 +418,7 @@ Generate a Pull Request showing TDD cycles for your practice code.
 → [index](#index)
 
 
-####Topic 5: SQL - MySql (2 days)####
+####Topic 5: SQL - MySql####
 
 #####Reading:#####
 1. [MySql basis](http://www.vogella.com/tutorials/MySQL/article.html)
@@ -468,7 +470,7 @@ Pull Request with SQL scripts and script.
 
 → [index](#index)
 
-####Topic 5: NoSQL - MongoDB (2 days)####
+####Topic 6: NoSQL - MongoDB####
 
 #####Reading:#####
 1. [SQL vs. NoSQL DB](http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/)
@@ -498,7 +500,7 @@ Generate a Pull Request with your practice code.
 
 → [index](#index)
 
-####Topic 6: REST (3 days)####
+####Topic 7: REST####
 
 #####Reading:#####
 1. [Introduction to REST](https://www.youtube.com/watch?v=YCcAE2SCQ6k)
