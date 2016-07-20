@@ -388,7 +388,6 @@ Generate a Pull Request that shows commits for each of your TDD iterations. Comm
 
 → [index](#index)
 
-
 ####Topic 4: Services####
 
 #####Reading:#####
@@ -416,7 +415,6 @@ Note: Do not worry about persistence. Hardcode data in a separate Package so tha
 Generate a Pull Request showing TDD cycles for your practice code.
 
 → [index](#index)
-
 
 ####Topic 5: SQL - MySql####
 
@@ -512,7 +510,7 @@ Generate a Pull Request with your practice code.
 4. [REST API documentation](http://swagger.io/getting-started/)
 
 5. [Swagger and Perl with Mojolicious](http://thorsen.pm/perl/programming/2015/07/05/mojolicious-swagger2.html)
-  
+
 #####Practice:#####
 
 1. Expose the shopping cart created in the topic 3.
