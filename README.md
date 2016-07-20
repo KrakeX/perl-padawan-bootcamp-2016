@@ -34,7 +34,7 @@ the reviewers. *Do not mix the key points with the rest of the exercises*
 
     * [Topic 0: Introduction to Perl](#topic-0-introduction-to-perl)
 
-    * [Topic 1: Introduction to Object Oriented Programming Concepts](#introduction-to-object-oriented-programming-concepts)
+    * [Topic 1: Introduction to Object Oriented Programming Concepts](#topic-1-introduction-to-object-oriented-programming-concepts)
 
     * [Topic 2: CPAN dependencies](#topic-2-cpan-dependencies)
     
